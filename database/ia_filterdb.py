@@ -84,7 +84,7 @@ async def get_search_results(chat_id, query, file_type=None, max_results=10, off
     #query = query.strip()
     if query:
         query = query.strip()
-    else
+    else:
         query = ""
     if not query:
         raw_pattern = '.'
@@ -179,6 +179,7 @@ def unpack_new_file_id(new_file_id):
     )
     return file_id
     
+
 
 
 
